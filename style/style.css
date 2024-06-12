@@ -1,0 +1,186 @@
+/*
+index
+*/
+
+.body1{
+	background-image: url("../import/pageindex/vuededessus.png");
+	background-repeat: no-repeat;
+ 	background-size: cover;
+}
+
+.header1{
+	width: 1300px;
+	margin: 450px auto 300px;
+	text-align: center;
+	justify-content: space-between;
+	border-width: 0.9448818898px
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+}
+
+.h11{
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+  	font-size: 34px;
+}
+
+/*
+projetslisagds
+*/
+
+.header2{
+	height: 30px;
+	width: 1300px;
+	margin: 5px auto 300px;
+	display: flex;
+	justify-content: space-between;
+	border: solid white;
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+  	border-width: 0.9448818898px
+}
+
+
+
+.h12{
+	margin-left: 8px;
+	margin-top: 7px;
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+  	font-size: 18px;
+}
+
+.h13{
+	margin-top: 7px;
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+  	font-size: 18px;
+}
+
+.h14{
+	margin-right: 8px;
+	margin-top: 7px;
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+  	font-size: 18px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+  	font-family: "Yantramanav", sans-serif;
+  	font-weight: 900;
+  	font-style: normal;
+}
+
+.body2{
+	background-color: black;
+	color: white;
+}
+
+
+
+/*
+minisite
+*/
+
+section{
+	width: 1300px;
+	margin: auto;
+	border-width: 0.9448818898px
+	border: solid white;
+}
+
+section div{
+	border: solid white;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	border-width: 0.9448818898px
+}
+
+article{
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 72%;
+	border-width: 0.9448818898px
+}
+
+article figure{
+	margin: 7px;
+	width: 450px;
+	height: 50px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+
+aside{
+	margin-top: 10px;
+	margin-right: 13px;
+	width: 23%;
+	border-width: 0.9448818898px
+}
+
+h2{
+	font-family: "Yantramanav", sans-serif;
+  	font-weight: 700;
+ 	font-style: normal;
+ 	font-size: 15px;
+
+}
+
+h3{
+	margin-top: 15px;
+	font-family: "Yantramanav", sans-serif;
+ 	font-weight: 400;
+  	font-style: normal;
+  	font-size: 12px;
+}
+
+p{
+	margin-top: 5px;
+  	font-size: 12px;
+  	font-family: "Yantramanav", sans-serif;
+  	font-weight: 400;
+  	font-style: normal;
+}
+
+hr{
+	border-width: 0.9448818898px
+}
+
+#unefoisetpasplus,#minisite,#métadonées,#formatfeuillage,#ps,#bd{
+	margin-top: 30px;
+}
+
+
+/*
+contact
+*/
+
+#contact{
+	width: 1300px;
+	height: 1000px;
+}
+
+
+/*
+moments
+*/
+
+#moments{
+	width: 1300px;
+	height: 1000px;
+}
+
+#articlemoments{
+	width: 1300px;
+}
