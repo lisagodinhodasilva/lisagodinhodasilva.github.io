@@ -8,16 +8,19 @@ index margin: 450px auto 300px;
  	background-size: cover;
 }
 
-.header1{
-	margin-top: 23%;
-	display: flex; 
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+.logo{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
 	justify-content: center;
-	width: 1300px;
-	text-align: center;
-	border-width: 0.9448818898px
-	font-family: "Yantramanav", sans-serif;
-  	font-weight: 900;
-  	font-style: normal;
+	align-items: center;
 }
 
 .h11{
