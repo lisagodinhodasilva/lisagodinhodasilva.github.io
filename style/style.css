@@ -34,10 +34,10 @@ index margin: 450px auto 300px;
 projetslisagds
 */
 
-.header2{
+header{
 	height: 30px;
 	width: 1300px;
-	margin: 5px auto 300px;
+	margin: 5px auto 350px;
 	display: flex;
 	justify-content: space-between;
 	border: solid white;
