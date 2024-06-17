@@ -1,5 +1,5 @@
 /*
-index
+index margin: 450px auto 300px;
 */
 
 .body1{
@@ -9,10 +9,11 @@ index
 }
 
 .header1{
+	margin-top: 23%;
+	display: flex; 
+	justify-content: center;
 	width: 1300px;
-	margin: 450px auto 300px;
 	text-align: center;
-	justify-content: space-between;
 	border-width: 0.9448818898px
 	font-family: "Yantramanav", sans-serif;
   	font-weight: 900;
@@ -91,14 +92,13 @@ minisite
 */
 
 section{
+	border: solid white;
 	width: 1300px;
 	margin: auto;
 	border-width: 0.9448818898px
-	border: solid white;
-}
+	}
 
 section div{
-	border: solid white;
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
@@ -153,24 +153,27 @@ p{
   	font-style: normal;
 }
 
-hr{
+.hr1{
 	border-width: 0.9448818898px
 }
 
-#unefoisetpasplus,#minisite,#métadonées,#formatfeuillage,#ps,#bd{
-	margin-top: 30px;
+.hr2{
+	border-width: 0.9448818898px
 }
-
+     
 
 /*
 contact
 */
 
-#contact{
-	width: 1300px;
-	height: 1000px;
+.asidecontact{
+	margin-bottom: 10px;
+	border: solid red;
+	margin-top: 10px;
+	margin-left: 13px;
+	width: 100%;
+	border-width: 0.9448818898px
 }
-
 
 /*
 moments
@@ -178,9 +181,20 @@ moments
 
 #moments{
 	width: 1300px;
-	height: 1000px;
 }
 
 #articlemoments{
-	width: 1300px;
+	margin-inline: 12px;
+	width: 1278px;
+	border-width: 0.9448818898px
+}
+
+img{
+	margin: 7px;
+	display: inline-block;
+	margin-bottom: 5px;
+}
+
+.rotate{
+	 transform: rotate(270deg)
 }
