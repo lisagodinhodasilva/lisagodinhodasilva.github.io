@@ -23,6 +23,10 @@ index margin: 450px auto 300px;
 	align-items: center;
 }
 
+.logo h1:hover{
+	color: #FFFF00;
+}
+
 .h11{
 	font-family: "Yantramanav", sans-serif;
   	font-weight: 900;
@@ -34,7 +38,7 @@ index margin: 450px auto 300px;
 projetslisagds
 */
 
-header{
+.header2{
 	height: 30px;
 	width: 1300px;
 	margin: 5px auto 350px;
@@ -58,12 +62,20 @@ header{
   	font-size: 18px;
 }
 
+.h12:hover{
+	color: #FFFF00;
+}
+
 .h13{
 	margin-top: 7px;
 	font-family: "Yantramanav", sans-serif;
   	font-weight: 900;
   	font-style: normal;
   	font-size: 18px;
+}
+
+.h13:hover{
+	color: #FFFF00;
 }
 
 .h14{
@@ -73,6 +85,10 @@ header{
   	font-weight: 900;
   	font-style: normal;
   	font-size: 18px;
+}
+
+.h14:hover{
+	color: #FFFF00;
 }
 
 a{
@@ -137,6 +153,7 @@ h2{
   	font-weight: 700;
  	font-style: normal;
  	font-size: 15px;
+ 	margin-bottom: 12px;
 
 }
 
@@ -164,7 +181,6 @@ p{
 	border-width: 0.9448818898px
 }
      
-
 /*
 contact
 */
@@ -174,7 +190,7 @@ contact
 	margin-top: 10px;
 	margin-left: 13px;
 	width: 100%;
-	border-width: 0.9448818898px
+	border-width: 0.9448818898px;
 }
 
 /*
