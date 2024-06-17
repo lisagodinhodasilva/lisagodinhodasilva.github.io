@@ -3,7 +3,7 @@ index margin: 450px auto 300px;
 */
 
 .body1{
-	background-image: url("../import/pageindex/vuededessus.png");
+	background-image: url("../import/pageindex/moments2.png");
 	background-repeat: no-repeat;
  	background-size: cover;
 }
@@ -168,7 +168,6 @@ contact
 
 .asidecontact{
 	margin-bottom: 10px;
-	border: solid red;
 	margin-top: 10px;
 	margin-left: 13px;
 	width: 100%;
