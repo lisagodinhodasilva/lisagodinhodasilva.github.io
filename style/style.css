@@ -37,6 +37,11 @@ hr{
     border-top: 0.25px solid black;
 }
 
+h4{
+	font-family: arial;
+	font-size: 12px;
+}
+
 /*
 section texte
 */
