@@ -10,13 +10,17 @@ body{
 page projet/ index
 */
 
+@font-face{
+	font-family: 'Androgy Demo';
+	src:  url('font/Androgydemo.ttf') format('truetype');
+}
+
 header{
 	height: 100%;
 	width: 1300px;
 	margin: 10px auto 5px;
 	display: flex;
-	font-family: "Barlow Condensed", sans-serif;
-  	font-weight: 500;
+	font-family: "Androgy demo";
 	font-size: 15px;
 	justify-content: space-between;
 }
@@ -43,9 +47,9 @@ section texte
 	margin: 7px auto 250px;
 }
 .pindex{
-	font-family: "Barlow Condensed", sans-serif;
+  	font-family: "Barlow Condensed", sans-serif;
 	font-weight: 300;
-	font-style: italic;
+	font-style: normal;
 	font-size: 14px;
 
 }
@@ -128,7 +132,7 @@ moments
 	margin: auto;}
 
 .moments div{
-	margin-top: 10px;
+	margin: 10px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
@@ -184,7 +188,7 @@ catalogue
 }
 
 .catalogue div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -214,7 +218,7 @@ telephone
 	margin: auto;}
 
 .telephone div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -240,7 +244,7 @@ geovelo
 	margin: auto;}
 
 .geovelo div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -265,18 +269,18 @@ h2{
 
 h3{
 	margin-top: 10px;
-	font-family: "Barlow", sans-serif;
-	font-weight: 200;
-  	font-style: normal;
-  	font-size: 10px;
+	font-size: 12px;
+  	font-family: "Barlow Condensed", sans-serif;
+	font-weight: 300;
+	font-style: normal;
 
 }
 
 p{
 	margin-top: 5px;
-  	font-size: 10px;
-  	font-family: "Barlow", sans-serif;
-	font-weight: 200;
+  	font-size: 12px;
+  	font-family: "Barlow Condensed", sans-serif;
+	font-weight: 300;
 	font-style: normal;
 }
 .hrprojet{
@@ -294,7 +298,7 @@ formatfeuillage
 	margin: auto;}
 
 .feuillage div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -320,7 +324,7 @@ mutek
 	margin: auto;}
 
 .mutek div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -343,7 +347,7 @@ minisite
 	margin: auto;}
 
 .minisite div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -378,7 +382,7 @@ metadonnee
 	margin: auto;}
 
 .metadonnee div{
-	margin-top: 30px;
+	margin: 30px auto;
 	width: 1300px;
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
