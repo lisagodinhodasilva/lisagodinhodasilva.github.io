@@ -11,8 +11,7 @@ page projet/ index
 */
 
 @font-face{
-	font-family: 'Androgy Demo';
-	src:  url('font/Androgydemo.ttf') format('truetype');
+	font-family: "Androgy Demo";
 }
 
 header{
