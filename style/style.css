@@ -96,12 +96,16 @@ h1:hover {
 }
 
 .article1 { grid-area: 1 / 1 / 2 / 2;}
-.article2 { grid-area: 1 / 2 / 5 / 3;}
-.article3 { grid-area: 1 / 3 / 2 / 4;}
-.article4 { grid-area: 1 / 4 / 2 / 5;}
-.article5 { grid-area: 1 / 5 / 3 / 6;}
-.article6 { grid-area: 2 / 1 / 4 / 2;}
-.article7 { grid-area: 2 / 4 / 4 / 5;}
+.article2 { grid-area: 2 / 1 / 4 / 2;}
+.article3 { grid-area: 1 / 2 / 3 / 3;}
+.article4 { grid-area: 3 / 2 / 5 / 3;}
+.article5 { grid-area: 1 / 3 / 2 / 4;}
+.article6 { grid-area: 2 / 3 / 4 / 4;}
+.article7 { grid-area: 4 / 3 / 5 / 4;}
+.article8 { grid-area: 1 / 4 / 3 / 5; }
+.article9 { grid-area: 3 / 4 / 4 / 5; }
+.article10 { grid-area: 1 / 5 / 3 / 6; }
+.article11 { grid-area: 3 / 5 / 5 / 6; }
 
 section article figure{
 	height: 100% auto;
@@ -130,6 +134,16 @@ contact
 /*
 moments
 */
+
+.left-text:hover{
+	color: white;
+	background-color: black;
+}
+
+.right-text:hover{
+	color: white;
+	background-color: black;
+}
 
 .moments{
 	width: 1300px;
@@ -211,7 +225,8 @@ catalogue
 .cat8 { grid-area: 4 / 2 / 5 / 3; }
 .cat9 { grid-area: 5 / 1 / 6 / 2; }
 .cat10 { grid-area: 5 / 2 / 6 / 3; }
-.cattexte { grid-area: 1 / 3 / 6 / 4; }
+.cattexte { grid-area: 1 / 3 / 6 / 4; 
+}
 
 /*
 telephone
@@ -339,6 +354,8 @@ mutek
 
 .mutek1 { grid-area: 1 / 1 / 2 / 2; }
 .mutek2 { grid-area: 1 / 2 / 2 / 3; }
+.mutek3 { grid-area: 2 / 1 / 3 / 2; }
+.mutek4 { grid-area: 2 / 2 / 3 / 3; }
 .mutektexte { grid-area: 1 / 3 / 2 / 4; }
 
 
