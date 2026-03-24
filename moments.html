@@ -32,7 +32,7 @@
 
             <div class="texte-haut">
 
-                <h1><span class="foncé">Lisa GODINHO DA SILVA</span> est une étudiante franco-portugaise en 3ème année de <span class="foncé"> DN MADE Numérique, option graphisme augmenté</span> au lycée Jacques Prévert à Boulogne-Billancourt.</h1>
+                <h1><span class="foncé">Lisa GODINHO DA SILVA</span> est une étudiante franco-portugaise en 3ème année de <span class="foncé"> <a href="https://dnmade-prevert.fr/" target="_blank">DN MADE Numérique</a>, option graphisme augmenté</span> au lycée Jacques Prévert à Boulogne-Billancourt.</h1>
                 <h1>Mon travail explore les <span class="foncé">dialogues entre le print et le numérique</span>, en questionnant comment ces deux univers peuvent se répondre et créer de <span class="foncé">nouvelles perceptions</span>. Je mêle conception <span class="foncé">d’édition, d’affiche et photographie, notamment argentique</span>, pour donner vie à des projets où sens et esthétique se rencontrent. Passionnée par l’image sous toutes ses formes, j’aime <span class="foncé">capturer des instants</span>, m’imprégner de clips vidéo, de films indépendants et expérimenter le collage pour <span class="foncé">nourrir ma pratique créative.</span></h1>
                 
             </div>
@@ -124,7 +124,7 @@
         <div class="colonne-droite">
             <div class="content">
                 <div class="image-set set1">
-                   
+                  
                     <div class="image-row">
                         <div class="image-column">
 
@@ -138,7 +138,6 @@
                         </div>
                     </div>
 
-                 
                     <div class="image-full">
 
                         <img src="import/moments/portugalsud/B016908-R1-20-16.jpg" alt="Image 1">
@@ -189,7 +188,7 @@
                 </div>
 
                 <div class="image-set set2">
-                  
+                   
                     <div class="image-row">
                         <div class="image-column">
 
@@ -203,13 +202,14 @@
                         </div>
                     </div>
 
-            
+                  
                     <div class="image-full">
 
                         <img src="import/moments/portugalplage/mo3.png" alt="Image 3">
 
                     </div>
 
+                  
                     <div class="image-row">
             
                         <div class="image-column">
@@ -224,7 +224,7 @@
                         </div>
                     </div>
 
-                
+                 
                     <div class="image-full">
 
                         <img src="import/moments/portugalplage/mo9.png" alt="Image 6">
@@ -264,7 +264,7 @@
                 </div>
 
                 <div class="image-set set6">
-                  
+                   
                     <img src="import/moments/portugalbatiment/mo11.png" alt="Image 3">                    
                     <img src="import/moments/portugalbatiment/mo12.png" alt="Image 3">
 
@@ -294,6 +294,7 @@
             </div>
         </div>
 
+<!-- Bloc flouté au-dessus de la barre de navigation -->
 
         <div class="blur"></div>
 
@@ -324,10 +325,11 @@
             const middleImages = document.querySelectorAll('.colonne-milieu a');
             const texteProjetActif = document.getElementById('texte-projet-actif');
             const imageSets = document.querySelectorAll('.colonne-droite .image-set');
+            const colonneDroite = document.querySelector('.colonne-droite'); // Sélectionne la colonne de droite
 
-            // Afficher uniquement le set1 par défaut (pas de texte de projet)
+            // Afficher uniquement le set1 par défaut
             document.querySelector('.colonne-droite .set1').style.display = 'block';
-            texteProjetActif.innerHTML = ''; // Vide au chargement
+            texteProjetActif.innerHTML = '';
 
             middleImages.forEach((image, index) => {
             image.addEventListener('click', function(e) {
@@ -345,6 +347,8 @@
             const texteAAfficher = document.querySelector(`.texte-projet.texte-${setIndex}`);
             if (texteAAfficher) texteProjetActif.innerHTML = texteAAfficher.innerHTML;
 
+            // Réinitialiser le défilement de la colonne de droite
+            colonneDroite.scrollTo({ top: 0, behavior: 'instant' });
             });
             });
             });

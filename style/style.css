@@ -1,5 +1,4 @@
 body, html {
-    cursor: url('/import/teckel.png'), auto;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -10,7 +9,7 @@ h1 {
     text-align: center;
     margin: 0; 
     padding: 10px 0; 
-    font-size: 2vw;
+    font-size: 2vw; 
 }
 
 .container {
@@ -61,7 +60,7 @@ h1 {
 .colonne-milieu a img {
     transition: all 0.3s ease;
     filter: drop-shadow(0 0 0px rgba(255, 255, 255, 0));
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
 }
 
 .colonne-milieu a img:hover {
@@ -124,6 +123,17 @@ h1 {
     display: block; 
 }
 
+.colonne-gauche .texte-haut h1 {
+    padding: 0 0 5px;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 0.9vw;
+    color: rgb(172, 172, 172);
+    text-decoration: none;
+    text-align: left;
+    display: block; 
+}
+
 .colonne-gauche .texte-bas h1 {
     padding: 0 0 5px;
     font-family: 'Archivo', sans-serif;
@@ -163,6 +173,17 @@ h1 {
     font-weight: 500;
 }
 
+.colonne-gauche a {
+    color: rgb(142, 142, 142);
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    color: inherit;
+}
+    
+.colonne-gauche a:hover {
+    color: #ffa6e0;
+}
+
 /*                             
    ____  ____ __   __
   / __ \/ __ `/ | / /
@@ -173,12 +194,12 @@ h1 {
 
 .blur {
     position: fixed;
-    bottom: 3vw;
+    bottom: 3vw; 
     left: 0;
     right: 0;
-    height: 1vw; 
+    height: 1vw;
     background: linear-gradient(to bottom, transparent, rgb(255, 255, 255));
-    -webkit-backdrop-filter: blur(12px); 
+    -webkit-backdrop-filter: blur(12px);
     z-index: 1; 
 }
 
@@ -254,7 +275,7 @@ h1 {
 }
 
 .image-column {
-    flex: 1;
+    flex: 1; 
 }
 
 .image-row img,.image-full img {
